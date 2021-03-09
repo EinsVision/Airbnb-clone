@@ -14,7 +14,7 @@ function Banner() {
           variant='outlined'
           onClick={ () => setShowSearch(!showSearch)}
         >
-          Search Dates
+          {showSearch ? "Hide" : "Search Date"}
         </Button>
       </div>
 
