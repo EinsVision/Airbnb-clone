@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Footer from './Footer';
 import Header from './Header';
 import Home from './Home';
 
@@ -9,6 +10,7 @@ function App() {
       {/* Home */}
       <Header />
       <Home />
+      <Footer />
         {/* Banner -> search page */}
           {/* Search */}
         {/* Cards */}
