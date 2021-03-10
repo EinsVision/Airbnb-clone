@@ -7,14 +7,12 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import SearchPage from './SearchPage';
 
 function App() {
   return (
     <div className="app">
-      {/* Home */}
       <Router>
         <Header />
 
@@ -30,14 +28,6 @@ function App() {
         <Footer />
       </Router>
       
-        {/* Banner -> search page */}
-          {/* Search */}
-        {/* Cards */}
-        {/* Footer */}
-
-      {/* Search Page */}
-        {/* Header */}
-        {/* ... */}
     </div>
   );
 }
