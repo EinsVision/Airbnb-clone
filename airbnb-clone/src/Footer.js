@@ -4,7 +4,8 @@ import './Footer.css';
 function Footer() {
   return (
     <div className='footer'>
-      <h1>Footer</h1>
+      <p>© 2021 Airbnb, Inc. All rights reserved </p>
+      <p>Privacy · Terms · Sitemap · Company Details</p>
     </div>
   )
 }
